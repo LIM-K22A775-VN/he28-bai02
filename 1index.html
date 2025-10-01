@@ -1,0 +1,136 @@
+<!-- ôn tập vẽ bảng thôi -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* border-collapse: collapse;
+Chỉ có tác dụng với phần tử <table>.
+Có thể viết riêng ra như vầy để dễ hiểu hơn:
+table {
+    border-collapse: collapse;
+}
+Ý nghĩa:
+Ghép các đường viền liền lại với nhau.
+Nếu không có dòng này, mỗi ô sẽ có viền riêng → dẫn tới viền đôi (2 viền đen cạnh nhau, trông xấu).
+Ví dụ dễ hiểu:
+Không có collapse: viền ô bên trái và viền ô bên phải nằm cạnh nhau → nhìn như 2 đường.
+Có collapse: 2 viền đó ghép lại thành 1 đường. */
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- <thead>
+            <th></th>
+        </thead> -->
+        <tbody>
+            <tr>
+                <td rowspan="11">hàng 1 cột 1</td>
+                <td>hàng 1 cột 2</td>
+                <td colspan="3">hàng 1 cột 3</td>
+            </tr>
+            <tr>
+                <td>hàng 2 cột 2</td>
+                <td colspan="3">hàng 2 cột 3</td>
+            </tr>
+            <tr>
+                <td colspan="4">hàng 3 cột 2</td>
+            </tr>
+            <tr>
+                <td>hàng 4 cột 2</td>
+                <td colspan="3">hàng 4 cột 3</td>
+
+            </tr>
+            <tr>
+                <td>hàng 5 cột 2</td>
+                <td colspan="3">hàng 5 cột 3</td>
+
+            </tr>
+            <tr>
+                <td colspan="4">hàng 6 cột 2</td>
+            </tr>
+            <tr>
+                <td>hàng 7 cột 2</td>
+                <td>hàng 7 cột 3</td>
+                <td>hàng 7 cột 4</td>
+                <td>hàng 7 cột 5</td>
+            </tr>
+            <tr>
+                <td>hàng 8 cột 2</td>
+                <td>hàng 8 cột 3</td>
+                <td>hàng 8 cột 4</td>
+                <td>hàng 8 cột 5</td>
+            </tr>
+            <tr>
+                <td>hàng 9 cột 2</td>
+                <td>hàng 9 cột 3</td>
+                <td>hàng 9 cột 4</td>
+                <td>hàng 9 cột 5</td>
+            </tr>
+            <tr>
+                <td>hàng 10 cột 2</td>
+                <td>hàng 10 cột 3</td>
+                <td>hàng 10 cột 4</td>
+                <td>hàng 10 cột 5</td>
+            </tr>
+            <tr>
+                <td colspan="3">hàng 11 cột 2</td>
+                <td>hàng 11 cột 5</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <ul>
+        <li>Â</li>
+        <li>Â</li>
+        <li>Â</li>
+        <li>Â</li>
+    </ul>
+
+    <ol type="I">
+        <li>Mục 1
+            <ol type="A">
+                <li>Mục 1-1</li>
+                <li>Mục 1-2</li>
+            </ol>
+        </li>
+        <li>Mục 2
+            <ol type="A">
+                <li>Mục 2-1</li>
+                <li>Mục 2-2</li>
+                <li>Mục 2-3
+                    <ol type="i">
+                        <li>Mục 2-3-1</li>
+                        <li>Mục 2-3-2</li>
+                        <li>Mục 2-3-3</li>
+                    </ol>
+                </li>
+                <li>Mục 2-4</li>
+            </ol>
+        </li>
+        <li>Mục 3</li>
+        <li>Mục 4</li>
+        <li>Mục 5</li>
+    </ol>
+
+
+</body>
+
+</html>

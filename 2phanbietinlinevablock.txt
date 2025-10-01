@@ -1,0 +1,11 @@
+
+block
++luôn bắt đầu trên 1 dòng mới
+vd: <div> <h> table , form, p , ul , ol , li , 
+-> đi học thành phố phải uống ống li
+
+inline : ở trên cùng 1 hàng  , chỉ xuống dòng khi hết chiều ngang
+phần tử inline không được chứa pt block
+phần tử inline chỉ được chứa pt inline
+
+ngoại lệ : thể a (inline) chứa đc các thẻ block

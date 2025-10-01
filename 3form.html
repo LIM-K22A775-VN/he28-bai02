@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form là "biểu mẫu" được sử dụng để thu thập thông tin -->
+    <form action="http://w3schools.com/action_page.php" target="_blank" autocomplete="off">
+        <label for="idfullname">Họ tên:</label>
+        <input type="text" id="idfullname" name="ten">
+        <br>
+        <label for="idemail">Email:</label>
+        <input type="email" id="idemail" name="email">
+        <br>
+        <label for="mausac">mausac:</label>
+        <select name="mausac" id="mausac">
+            <option value="">Lựa chọn</option>
+            <option value="do">Red</option>
+            <option value="xanh">Green</option>
+            <option value="vang">Yellow</option>
+        </select>
+        <br>
+
+
+        <input type="checkbox" name = "ngonngu" value = "1">1 
+        <input type="checkbox" name = "ngonngu" value = "2">2 
+        <input type="checkbox" name = "ngonngu" value = "3">3 
+
+
+        <input type="radio" name = "ngonngu1" value = "1">1 
+        <input type="radio" name = "ngonngu1" value = "2">2 
+        <input type="radio" name = "ngonngu1" value = "3">3 
+        <input type="submit">
+    </form>
+    <!-- 
+    Form Attribute : thuộc tính của form ( trong <form ....... >)
+    1 action 
+    giá trị là 1 đường dẫn 
+    xác định nơi nhận giá trị khi gửi  
+
+    2 target : chỉ định nơi phản hồi khi gửi
+    target = "_self" : mặc định : phản hồi hiển thị ở tab hiện tại
+    target = "_blank": phản hồi hiển thị ở tab mới
+
+    3 method : chỉ định giao thức HTTP sẽ được sử dụng khi gửi dữ liệu biểu mẫu.
+    có 2 phương thức GET và POST
+
+    4 autocomplete : tính năng tự động điền 
+    trình duyệt sẽ gợi í các giá trị mà người dùng đã nhập trước đó
+    mặc định autocomplete = "on"
+
+    5 novalidate : không cần kiểm tra chính xác dữ liệu khi gửi đi [ :)) ]
+    -->
+    <!-- 
+    Form Elements
+    input : hiển thị theo nhiều cách , tùy thuộc vào thuộc tính type , mặc định : text 
+    label : xác định các nhãn cho element trong biểu mẫu để người dùng hiểu hơn về element đó
+            for của label phải bằng id của element đó để liên kết chúng lại với nhau
+    select hiển thị danh sách thả xuống <dropdown> : selected : hiển thị trước
+    textarea: nhập nhiều dòng
+-->
+
+</body>
+
+</html>
